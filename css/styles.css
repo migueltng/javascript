@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title_main {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.form_main{
+    display: flex;
+    margin: 10px 0;
+}
+
+.input_main{
+    flex: 1;
+    padding: 5;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 800;
+    transition: all 0.4s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+.button--primary{
+    background-color: darkgreen;
+    color: #ffffff;
+}
+
+.button--secundario{
+    background-color: blue;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.button--terciario{
+    background-color: red;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.table_main{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_header_main, .table_body_main td{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.table_body_main td:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
